@@ -1,0 +1,28 @@
+{
+  "name": "solana-program-scanner",
+  "version": "0.0.1",
+  "description": "NFT solana program address scanner",
+  "main": "scanner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sol-cryptokid/solana-program-scanner.git"
+  },
+  "keywords": [
+    "nft",
+    "solana",
+    "scanner"
+  ],
+  "author": "cryptokid.sol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sol-cryptokid/solana-program-scanner/issues"
+  },
+  "homepage": "https://github.com/sol-cryptokid/solana-program-scanner#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "commander": "^8.3.0"
+  }
+}
