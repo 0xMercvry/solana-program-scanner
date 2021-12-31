@@ -10,4 +10,7 @@ $ ./scanner.js -p CryptoCubs -m digitaleyes
 ```
 
 ## Todo
-✅ Implement DigitalEyes marketplace
+[✅] Implement DigitalEyes marketplace
+[] Migrate to typescript
+[] Create npm package usable as cli
+[] Create npm package usable as library

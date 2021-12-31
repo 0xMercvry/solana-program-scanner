@@ -2,8 +2,10 @@
   "name": "solana-program-scanner",
   "version": "0.0.1",
   "description": "NFT solana program address scanner",
-  "main": "scanner.js",
+  "main": "./dist/lib.js",
   "scripts": {
+    "build": "./node_modules/.bin/babel src/ --out-dir dist/ --extensions \".ts,.tsx\"",
+    "dev-test": "npm run build ; babel-node dev/simple-test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +27,11 @@
     "axios": "^0.24.0",
     "commander": "^8.3.0",
     "table": "^6.7.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7"
   }
 }
