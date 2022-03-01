@@ -19,6 +19,9 @@
   ],
   "author": "cryptokid.sol",
   "license": "MIT",
+  "bin": {
+    "solscanner": "./cli/cli.js"
+  },
   "bugs": {
     "url": "https://github.com/sol-cryptokid/solana-program-scanner/issues"
   },

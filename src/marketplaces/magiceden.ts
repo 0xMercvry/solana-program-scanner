@@ -1,7 +1,6 @@
 
 import { HttpResponse, Program, MagicEdenNFT, ProgramAddress } from "../types";
 
-
 export async function _handleMagicEdenData ({ results }): Promise<Program> {
     if (!results || typeof results[0] !== 'object') throw "invalid data type for magiceden";
     let item: MagicEdenNFT = results[0];

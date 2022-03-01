@@ -2,7 +2,6 @@ import axios from "axios";
 import {table} from "table";
 
 import {  MARKETPLACES, DEFAULT_MARKETPLACE, AVAILABLE_MARKETPLACES } from "./config";
-export const PROGRAM_URL_TEMPLATE: string = "{projectId}";
 import { Marketplace, Program } from "./types"
 
 function showProgramAddress (data: Program): boolean {

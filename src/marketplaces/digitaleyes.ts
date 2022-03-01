@@ -1,4 +1,4 @@
-import { Program, HttpResponse, DigitalEyesNFT, ProgramAddress } from "../types";
+import { Program, DigitalEyesNFT, ProgramAddress } from "../types";
 import axios from "axios";
 
 export async function _handleDigitalEyesData ({ offers }): Promise<Program> {
